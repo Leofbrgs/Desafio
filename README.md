@@ -24,16 +24,17 @@ Para executar a aplicação, siga estas etapas:
 ### Frontend (React)
 
 1. Clone o projeto  
-git clone https://github.com/Leofbrgs/Desafio-puma.git
+git clone https://github.com/jsfelix/puma-code-challenge.git
 
 
 2. Navegue até o diretório frontend:
 
-   cd Desafio-puma/frontend
+cd Desafio-puma/frontend/front-desafio
 
 3.Instale as dependências:
 
-npm install ...
+sudo apt install npm
+npm install react
 
 4. Inicie o servidor de desenvolvimento:
 
@@ -44,11 +45,11 @@ npm start
 
 1. Navegue até o diretório frontend:
 
-   cd Desafio-puma/frontend
+   cd Desafio-puma/backend
 
 2.Instale as dependências:
 
-npm install ...
+npm install node
 
 4. Inicie o servidor de desenvolvimento:
 
