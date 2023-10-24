@@ -24,7 +24,7 @@ Para executar a aplicação, siga estas etapas:
 ### Frontend (React)
 
 1. Clone o projeto  
-git clone https://github.com/jsfelix/puma-code-challenge.git
+git clone https://github.com/Leofbrgs/Desafio.git
 
 
 2. Navegue até o diretório frontend:
