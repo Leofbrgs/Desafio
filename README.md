@@ -26,7 +26,6 @@ Para executar a aplicação, siga estas etapas:
 1. Clone o projeto  
 git clone https://github.com/Leofbrgs/Desafio.git
 
-
 2. Navegue até o diretório frontend:
 
 cd Desafio-puma/frontend/front-desafio
@@ -40,12 +39,11 @@ npm install react
 
 npm start
 
-
 ### Backend (Node.js com express)
 
 1. Navegue até o diretório frontend:
 
-   cd Desafio-puma/backend
+cd Desafio-puma/backend
 
 2.Instale as dependências:
 
@@ -66,7 +64,7 @@ Os testes para a aplicação estão implementados usando o framework Jest e a bi
 Para executar os testes, siga estas etapas:
 
 1.Navegue até o diretório backend:
-    cd Desafio-puma/backend
+cd Desafio-puma/backend
 
 2. Instale
 npm install --save-dev jest
@@ -74,7 +72,7 @@ npm install --save-dev supertest
 
 
 3.Execute o comando de teste na pasta do back:
-    npx jest
+npx jest
 
 Isso executará os testes automatizados e fornecerá os resultados.
 Autor
