@@ -1,0 +1,341 @@
+.container{
+    height: 140vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #212b46);
+    padding-top: 50px;
+}
+
+
+
+.title{
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.title2{
+  font-size: 70px;
+  color: aliceblue;
+}
+
+
+.title-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-details {
+  margin-left: 20px;
+}
+
+.user-name, .user-github {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-url{
+  display: block;
+  margin-bottom: 10px;
+  color: #2083b1;
+  
+}
+
+.buttonAdicionar {
+  margin-top: 20px;
+}
+
+.containerInput{
+    background-color: rgba(255,255,255,0.2) ;
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    margin-right: 8px;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5;
+}
+
+.buttonAdicionar {
+  background-color: #777;
+  padding: 15px;
+  margin: 15px 0;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif; /* Use a fonte Roboto ou outra fonte do Google Fonts */
+}
+
+.buttonListagem {
+  background-color: #777;
+  padding: 15px;
+  padding-top: 10px;
+  margin: 10px 0;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif; /* Use a fonte Roboto ou outra fonte do Google Fonts */
+}
+
+
+
+
+.toggle-button{
+    background-color: #777; /* Define a cor de fundo cinza claro */
+    padding: 15px;
+    padding-top: 10px; /* Adiciona um padding superior para empurrar o conteúdo para baixo */
+    margin: 10; /* Remove a margem inferior */
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.favorite-users {
+    position: fixed;
+    top: 240px; /* Posição vertical desejada */
+    right: 20px; /* Margem direita para posicionar à direita */
+    width: 500px; /* Largura desejada */
+    background-color: #777;
+    border-radius: 8px;
+  }
+
+  .favorites-title-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+
+  .success-message {
+    background-color: #4caf50; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branca */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #fff; 
+  }
+  
+  .star-button.starred .star {
+    color: #ffeb3b; 
+  }
+  
+  .star-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .star-button.starred {
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  td button.star-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+  }
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252944;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media(max-weidh: 620px){
+    .title{
+        font-size: 28px;
+    }
+
+    .main h2{
+        font-size: 28px;
+    }
+
+    .main{
+        width: 80%;
+    }
+
+}
+
+
+.grid-container {
+  margin-top: 20px;
+}
+
+.favorites-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo ajustada para #333 ou outra cor de sua escolha */
+  position: relative; /* Adicionado para posicionar o ícone de lixo */
+}
+
+.grid-item-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid-item img {
+  max-width: 70px;
+  border-radius: 50%;
+}
+
+.star-button {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.star {
+  color: yellow;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-details h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.user-details a {
+  color: #2083b1;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+
+.excluir-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+  margin: 10px 0;
+}
+
+.grid-item-image {
+  position: relative;
+  text-align: center;
+}
+
+.grid-item-image img {
+  max-width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+  border-radius: 50%;
+}
+
+.grid-item-image .star-button {
+  font-size: 24px; /* Ajuste o tamanho da estrela conforme necessário */
+}
+
+.trash-icon {
+  position: absolute;
+  top: 170px; /* Ajuste a posição vertical para 10px para ficar no canto superior direito */
+  right: 115px; /* Ajuste a posição horizontal para 10px para ficar no canto superior direito */
+  font-size: 24px; /* Ajuste o tamanho do ícone de lixo conforme necessário */
+  color: red; /* Cor do ícone de lixo */
+}
+
+.buttonOrd {
+  background-color: #777;
+  padding: 15px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center; /* Alinhe o conteúdo no centro */
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.buttonOrdContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
