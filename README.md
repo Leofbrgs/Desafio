@@ -21,23 +21,6 @@ Este projeto é uma aplicação de exemplo que permite aos usuários gerenciar u
 
 Para executar a aplicação, siga estas etapas:
 
-### Frontend (React)
-
-1. Clone o projeto  
-git clone https://github.com/Leofbrgs/Desafio.git
-
-2. Navegue até o diretório frontend:
-
-cd Desafio-puma/frontend/front-desafio
-
-3.Instale as dependências:
-
-sudo apt install npm
-npm install react
-
-4. Inicie o servidor de desenvolvimento:
-
-npm start
 
 ### Backend (Node.js com express)
 
@@ -56,6 +39,25 @@ node index.js
 O servidor Express será executado na porta 3000.
 
 Agora, você pode acessar o aplicativo em seu navegador no endereço http://localhost:3000.
+
+
+### Frontend (React)
+
+1. Clone o projeto  
+git clone https://github.com/Leofbrgs/Desafio.git
+
+2. Navegue até o diretório frontend:
+
+cd Desafio-puma/frontend/front-desafio
+
+3.Instale as dependências:
+
+sudo apt install npm
+npm install react
+
+4. Inicie o servidor de desenvolvimento:
+
+npm start
 
 ### Testes
 
