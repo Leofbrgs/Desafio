@@ -24,7 +24,7 @@ Para executar a aplicação, siga estas etapas:
 
 ### Backend (Node.js com express)
 
-1. Navegue até o diretório frontend:
+1. Navegue até o diretório backand:
 
 cd Desafio-puma/backend
 
